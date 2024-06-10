@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body{
+        font-family: Arial, Sans-Serif;
+      }
+      
+      .destination{
+        color:#2BDF25;
+      }
+      
+      .essentials{
+        color:#5954E3;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Top 5 Destination to visit in 2024</h2>
+    <ol class ="destination">
+      <li>Leh</li>
+      <li>Kasauli</li>
+      <li>Mussourie</li>
+      <li>Gangtok</li>
+      <li>Shimla</li>
+    </ol>
+    
+    <h2>Essentials to pack for your trip</h2>
+    <ul class ="essentials">
+      <li>Sunscreen</li>
+      <li>Trekking shoes</li>
+      <li>Water Bottle</li>
+      <li>Power Bank</li>
+      <li>Tent</li>
+    </ul>
+  </body>
+</html>
