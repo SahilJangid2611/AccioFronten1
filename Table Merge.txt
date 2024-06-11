@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+  <body>
+   <table border="1">
+     <thead>
+       <tr>
+         <th>A</th>
+         <th>B</th>
+         <th>C</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td rowspan="2">asd</td>
+         <td>sad</td>
+         <td  rowspan="2">daf</td>
+       </tr>
+       
+       <tr>
+         <td>add</td>
+         <td>ppd</td>
+         <td>dsf</td>
+       </tr>
+     </tbody>
+   </table>
+  </body>
+</html>
