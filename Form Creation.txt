@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body{
+        font-family: Arial, Sans-Serif;
+        background-color: #BDD4E7;
+        margin:0;
+        padding: 0;
+      }
+      
+      .container{
+        max-width: 600px;
+        margin:50px auto;
+        padding: 20px;
+        background-color: #CCE9E7;
+        border-radius: 8px;
+        box box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      }
+      h2{
+        text-align: center;
+        color: #333E3E;
+      }
+      
+      .form-group{
+        margin-bottom: 20px;
+      }
+      
+      label{
+        display: block;
+        margin-bottom: 5px;
+        color:#394046;
+      }
+      
+      input[type="text"],input[type="email"],textarea,select{
+        width:100%;
+        padding:10px;
+        font-size: 16px;
+        border:1px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      input[type="submit"]{
+        display: block;
+        width:100%;
+        padding: 10px;
+        font-size: 16px;
+        color: #33404C;
+        background-color: #849DB3;
+        border:"none";
+        border-radius: 4 px;
+        cursor:"pointer";
+      }
+      
+      input[type="submit"]:hover{
+        background-color: #A3D8BC;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class= "container">
+      <h2>Contact Us</h2>
+      <form>
+        <div class="form-group">
+        <label for="name">Full Name: </label>
+        <input type="text" id="name" placeholder="Enter your name" required><br><br> 
+        </div>
+        
+        <div class="form-group">
+         <label for="email">Email: </label>
+        <input type="email" id="email" placeholder="Enter your email" required><br><br> 
+        </div>
+        
+        <div class="form-group">
+        <label for="message">Message: </label>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter the message"></textarea>
+        </div>
+        
+        <div class="form-group">
+        <input type="checkbox" id="subscribe" name="subscribe" value="subscribe" required><br><br>
+         <label for="subscribe">Subscribe to the newsletter</label><br><br> 
+         </div>
+         
+         <div class="form-group">
+        <input type ="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br> 
+        <input type ="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br> 
+        </div>
+        
+        <div class="form-group">
+        <label for="country">Country: </label><br>
+        <select id="country" name="country">
+          <option value="India">India</option>
+          <option value="USA">USA</option>
+          <option value="Germany">Germany</option>
+        </select><br><br>
+        </div>
+        
+        <input type="submit" value="Submit">
+        
+      </form>
+    </div>
+  </body>
+</html>
