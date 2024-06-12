@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Languages Survey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 50%;
+            margin: 50px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        input[type="text"], input[type="email"], input[type="number"], select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .languages {
+            margin-bottom: 10px;
+        }
+        .languages label {
+            display: inline-block;
+            margin-right: 10px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Programming Languages Survey</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required maxlength="50" pattern="[A-Za-z\s]+" title="Please enter alphabetic characters only"><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required min="18" max="100"><br>
+        
+        <fieldset class="languages">
+            <legend>Top Three Favorite Programming Languages:</legend>
+            <input type="checkbox" id="java" name="languages[]" value="Java">
+            <label for="java">Java</label>
+            <input type="checkbox" id="python" name="languages[]" value="Python">
+            <label for="python">Python</label>
+            <input type="checkbox" id="javascript" name="languages[]" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+            <input type="checkbox" id="csharp" name="languages[]" value="C#">
+            <label for="csharp">C#</label>
+            <input type="checkbox" id="cpp" name="languages[]" value="C++">
+            <label for="cpp">C++</label>
+        </fieldset>
+        
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+</body>
+</html>
