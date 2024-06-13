@@ -1,0 +1,35 @@
+Installing Git:
+Download Git:
+
+Go to the official Git website: https://git-scm.com/.
+Click on the "Download" button to download the Git installer.
+Run the Installer:
+
+Once the download is complete, run the Git installer.
+Follow the installation wizard's instructions. You can usually leave the default settings as they are, but you may want to customize the installation directory or choose specific components to install.
+Completing the Installation:
+
+After the installation is complete, you may be asked to choose a default text editor and configure some other settings. You can typically leave these settings as their defaults if you're unsure.
+Setting Up Environment Variables:
+Open System Properties:
+
+Right-click on the "This PC" or "My Computer" icon on your desktop or in File Explorer.
+Select "Properties" from the context menu to open the System Properties window.
+Access Environment Variables:
+
+In the System Properties window, click on "Advanced system settings" on the left sidebar. This will open the System Properties dialog box.
+In the System Properties dialog box, click on the "Environment Variables" button near the bottom right.
+Edit System Variables:
+
+In the Environment Variables window, you'll see two sections: User variables and System variables. We'll be working with System variables.
+Look for the variable named "Path" in the System variables section and select it.
+Click on the "Edit" button to edit the Path variable.
+Add Git to Path:
+
+In the Edit Environment Variable window, click on the "New" button.
+Type or paste the path to the Git bin directory. By default, it's C:\Program Files\Git\bin. If you installed Git in a different directory, adjust the path accordingly.
+Click "OK" to save the changes and close all the open windows.
+Verify Installation:
+
+Open a new Command Prompt window (press Win + R, type cmd, and press Enter).
+Type git --version and press Enter. You should see the Git version information if Git is installed correctly.
