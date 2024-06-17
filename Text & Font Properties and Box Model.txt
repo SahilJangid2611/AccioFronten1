@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      p{
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+        font-stretch: expand;
+        color: hsla(150,90%,40%,1);
+        text-decoration: underline overline line-through;
+        text-decoration-color: blue;
+        text-decoration-style:dashed;
+        text-decoration-line: overline;
+        text-align: justify;
+        text-align-last: center;
+        text-transform: full-width;
+      }
+      h2{
+        font: italic small-caps bold 25px/1.5 "Times New Roman" Arial;
+        color: #6586C3;
+      }
+      .box-model{
+        padding:20px;
+        border: 1px solid black;
+        margin:30px auto;
+      }
+    </style>
+  </head>
+  <body>
+        <p> You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. </p>
+        <h2>Example of font property</h2>
+        <div>Top Element</div>
+        <div class="box-model">Box Model Example</div>
+        <div>Bottom Element</div>
+  </body>
+</html>
