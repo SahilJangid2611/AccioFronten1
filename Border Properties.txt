@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: "Trebuchet MS";
+  }
+  header{
+    height: 60px;
+    border-top:2px solid #4FA98F;
+    background-color: #FE6864;
+    padding:10px;
+    text-align: center;
+  }
+  
+  section{
+    height: 300px;
+    min-height: calc(100vh-100px);
+    border:1px dotted #AEBDDF;
+    padding:20px;
+  }
+  .nested-box{
+    width:100px;
+    height:100px;
+    margin:10px;
+    float:left;
+    border:3px solid #F4F45F;
+    border-radius:10px;
+    background-color: #B3F5BC;
+    text-align:center;
+    line-height: 100px;
+  }
+  footer{
+    height:40px;
+    border:3px double #ABFFFE;
+    background-color: #FFCAD0;
+    text-align: center;
+    padding-top:10px;
+  }
+    </style>
+  </head>
+  <body>
+    <header>
+      Border Properties
+    </header>
+    <section>
+      <div class="nested-box">Box 1</div>
+      <div class="nested-box">Box 2</div>
+      <div class="nested-box">Box 3</div>
+      <div class="nested-box">Box 4</div>
+    </section>
+    <footer>
+      Footer Content
+    </footer>
+  </body>
+</html>
