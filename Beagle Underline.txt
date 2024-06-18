@@ -5,28 +5,29 @@
     <link rel="stylesheet" href="styles.css" />
     <style>
       .underline-effect {
-  position: relative; 
-  display: inline-block; 
+  font-family: Verdana, sans-serif;
+  display: inline-block;
+  position: relative;
 }
 
 .underline-effect::after {
-  content: ''; 
+  content: '';
   position: absolute;
   left: 0;
   bottom: -2px; 
   width: 100%; 
-  height: 1px; 
+  height: 1px;
   background-color: black; 
-  z-index: -1; 
 }
-
 
 .underline-effect::after {
-  width: calc(100% + 10px); 
-}
+  width: calc(100% + 5px)
+  }
     </style>
   </head>
   <body>
-      <p class="underline-effect">Beagle</p>
+  
+      <h1 class="underline-effect">Beagle</h1>
+      <script src="script.js"></script>
   </body>
 </html>
