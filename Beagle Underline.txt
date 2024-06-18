@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .underline-effect {
+  position: relative; 
+  display: inline-block; 
+}
+
+.underline-effect::after {
+  content: ''; 
+  position: absolute;
+  left: 0;
+  bottom: -2px; 
+  width: 100%; 
+  height: 1px; 
+  background-color: black; 
+  z-index: -1; 
+}
+
+
+.underline-effect::after {
+  width: calc(100% + 10px); 
+}
+    </style>
+  </head>
+  <body>
+      <p class="underline-effect">Beagle</p>
+  </body>
+</html>
