@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+    
+     body{
+       font-family:courier;
+       line-height: 1.5;
+       margin: 0;
+       padding: 0;
+       background-color: #E1F5F5;
+     }
+     
+     .container{
+       width:80%;
+       margin:0 auto;
+       background-color: #F5EDE1;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       padding:20px;
+     }
+     
+     header{
+       text-align:center;
+       margin-bottom: 20px;
+     }
+     
+     nav ul{
+       list-style-type: none;
+       padding:0;
+       text-align: center;
+     }
+     
+     nav a {
+      
+       text-decoration: none;
+       color:#054842;
+     }
+     
+     main {
+       display: grid;
+       grid-template-columns: 1fr;
+       gap:10px;
+     }
+     
+     section {
+       padding:20px;
+       background-color: #D5DAF5;
+       border-radiun:5px;
+     }
+     
+     footer {
+       text-align: center;
+       padding:10px 0;
+       background-color: #3E51B8;
+       color: #11F5E1;
+     }
+     
+     @media screen and (min-width:600px){
+       .container{
+         widht:70%;
+       }
+       nav ul{
+         display:flex;
+         justify-content: center;
+         
+       }
+       
+       main{
+         grid-template-columns: 1fr 1fr;
+       }
+     }
+     
+     @media screen and (min-width:900px){
+       .container{
+         widht:60%;
+       }
+       
+       
+       
+    </style>
+  </head>
+  <body>
+     <div class="container">
+       <header>
+         <h1>Responsive Layout</h1>
+       </header>
+       
+       <nav>
+         <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Services</a></li>
+           <li><a href="#">Contact Us</a></li>
+         </ul>
+       </nav>
+       
+       <main>
+         <secion>
+           <h2>Welcome to th Responsive website</h2>
+           <p>Sourcing colors for a new project? Just for fun? Get inspired by our color library containing over 100+ shades from peach to periwinkle, turquoise to taupe, and just about everything in-between.</p>
+         </secion>
+         <section>
+           <h2>Our Services</h2>
+           <p>Looking for some already great color combinations? Our color chart features flat design colors, Google's Material design scheme and the classic web safe color palette, all with Hex color codes.</p>
+         </section>
+         
+       </main>
+       <footer>
+         <p>All right Reserved</p>
+       </footer>
+     </div>
+  </body>
+</html>
