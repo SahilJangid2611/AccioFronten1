@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modal Example</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<button id="openModal">Open Modal</button>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2>Modal Header</h2>
+      <button class="close-modal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <p>Modal Body Content</p>
+    </div>
+  </div>
+</div>
+
+<script>
+
+document.getElementById('openModal').onclick = function() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+window.onclick = function(event) {
+  var modal = document.getElementById('myModal');
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+document.querySelector('.close-modal').onclick = function() {
+  document.getElementById('myModal').style.display = "none";
+}
+</script>
+
+</body>
+</html>
