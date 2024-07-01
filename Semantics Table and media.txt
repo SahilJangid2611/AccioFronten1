@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic Tables and Media</title>
+</head>
+<body>
+
+  <section>
+    <h2>Roll numbers and Names</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Roll Number</th>
+          <th>Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>John Doe</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jane Smith</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Michael Johnson</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+
+  <h2>List of medias</h2>
+
+
+  <ol>
+    <li>
+      <p>Image: <img src="https://picsum.photos/id/123/200/300" alt="Random Image"></p>
+    </li>
+    <li>
+      <p>Video:
+        <video width="320" height="240" controls>
+          <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </p>
+    </li>
+    <li>
+      <p>Audio:
+        <audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg" controls>
+          Your browser does not support the audio tag.
+        </audio>
+      </p>
+    </li>
+  </ol>
+
+</body>
+</html>
