@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+    @keyframes slider{
+      0%{
+        transform:translateX(-100%);
+        opacity:0;
+      }
+      50%{
+        opacity:0.9;
+      }
+      100%{
+        transform:translateX(0);
+        opacity:1;
+      }
+    }
+    
+    .animated-text{
+      width:200px;
+      height: 100px;
+      background-color: #A7D5D4;
+      color:#FF2700;
+      text-align: center;
+      line-height: 100px;
+      position:relative;
+      animation-name:slider;
+      animation-duration: 3s;
+      animation-delay:0.5s;
+      animation-iteration-count: 5;
+      animation-direction: alternate;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="animated-text">
+      Hey, Animation
+    </div>
+  </body>
+</html>
