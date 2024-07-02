@@ -1,0 +1,53 @@
+-------------on @keyframes------------------------
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      @keyframes rainbow-text{
+        0%{
+          color:red;
+        }
+        20%{
+          color:orange;
+        }
+        40%{
+          color:yellow;
+        }
+        60%{
+          color:green;
+        }
+        80%{
+          color:blue;
+        }
+        100%{
+          color:violet;
+        }
+      }
+      
+      .animated-text{
+        animation-name: rainbow-text;
+        animation-duration: 4s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        font-size:36px;
+        font-weight: bold;
+      }
+      
+      body{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:100vh;
+        background-color: #f0f0f0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="animated-text">
+      Hey, Animation
+    </div>
+  </body>
+</html>
