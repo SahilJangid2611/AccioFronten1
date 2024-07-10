@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2>Place your order</h2>
+     <form>
+       <label for="name">Name:</label><br> 
+       <input type="text" id="name" required><br>
+       
+       <label for="password">Password:</label><br>
+       <input type="password" id="password" required><br>
+       
+      <label for="pizzasize">Pizza Size:</label><br>
+      <select id="pizzasize">
+        <option>Small</option>
+        <option>Medium</option>
+        <option>Large</option>
+      </select>
+      
+      <fieldset>
+        <legend>Toppings</legend>
+
+       <label>Pepperoni</label>
+       
+       <input type="checkbox" id="password" required><br>
+       <label>Mashroom</label>
+       
+       <input type="checkbox" id="password" required><br>
+       <label>Onion</label>
+       
+       <input type="checkbox" id="password" required><br>
+       <label>Sausage</label>
+       
+       <input type="checkbox" id="password" required><br>
+      </fieldset>
+      
+      <fieldset>
+      <legend>Pizza Type:</legend>
+    
+       <label for="veg">Veg</label>
+       <input type="radio" id="veg" name="veg" checked><br>
+       
+       <label for="nonveg">Non-Veg</label>
+       <input type="radio" id="nonveg" name="veg"><br>
+       
+      </fieldset>
+      
+      <label>Phone Number:</label>
+      <input type="tel">
+     </form>
+  </body>
+</html>
