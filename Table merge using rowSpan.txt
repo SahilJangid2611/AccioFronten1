@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      table{
+        border-collapse: collapse;
+        width: 100%;
+        background-color: #E0AB8B;
+      }
+      th,td{
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+      }
+      th{
+        color:white;
+        background-color: #3B3848;
+      }
+    </style>
+  </head>
+  <body>
+ <table>
+ <tr>
+   <th rowspan="2">Header 1</th>
+   <th>Header 2</th>
+   <th>Header 3</th>
+ </tr>
+ 
+ <tr>
+   <td>Row1, C2</td>
+   <td>Row1, C3</td>
+ </tr>
+ 
+ <tr>
+   <td rowspan="2">R2, C1 and C2</td>
+   <td>R2, C3</td>
+   <td>R2, C4</td>
+ </tr>
+ 
+ <tr>
+   <td>R3,C2</td>
+   <td>R3,C3</td>
+ </tr>
+ </table>
+  </body>
+</html>
