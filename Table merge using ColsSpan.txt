@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      table{
+        border-collapse: collapse;
+        width: 100%;
+        background-color: #E0AB8B;
+      }
+      th,td{
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+      }
+      th{
+        color:white;
+        background-color: #3B3848;
+      }
+    </style>
+  </head>
+  <body>
+ <table>
+   <tr>
+     <th colspan="2">Header Spanning space of two</th>
+     <th>Header 3</th>
+   </tr>
+   
+   <tr>
+     <td>Columne 1</td>
+     <td>Columne 2</td>
+     <td>Columne 3</td>
+   </tr>
+   
+   <tr>
+     <td colspan="2">R3,Columne 1&2</td>
+     <td>Columne 3</td>
+   </tr>
+   
+   
+ </table>
+  </body>
+</html>
