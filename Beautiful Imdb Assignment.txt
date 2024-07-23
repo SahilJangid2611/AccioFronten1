@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	 <div class="container">
+       <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/FRANCE-REFORM-PENSIONS-31_1675022359706_1675022359706_1675022383851_1675022383851.JPG" class="moviePic">
+       <p class="movieDetail">Movie Description</p>
+     </div>
+    <script type="text/javascript" src="./script.js">
+</script>
+
+</body>
+
+</html>
+
+----csss---------
+
+
+.container{
+    text-align: center;
+  }
+  
+  .moviePic{
+    height: 200px;
+    width:auto;
+    opacity:0.9;
+    border-radius: 8px;
+  }
+  
+  .movieDetail{
+    position: relative;
+    top:20px;
+    font-family: cursive;
+    font-size:30px;
+    width:80%;
+    text-align: center;
+  }
