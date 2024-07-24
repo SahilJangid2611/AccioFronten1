@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	 <body>
+    <blockquote class="questions">
+      <p>Who was the first female to become the governor of an Indian state?</p>
+    </blockquote>
+    
+    <blockquote class="questions">
+      <p>Who among first Woman to climb Mount Everest twice?</p>
+    </blockquote>
+    
+    <blockquote class="questions">
+      <p>Who is President of India?
+    </p>
+    </blockquote>
+  </body>
+    <script type="text/javascript" src="./script.js">
+</script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+---css-----------
+
+.questions{
+        background-color: #f8fffe;
+        height: 50px;
+        margin-top:20px;
+        padding:15px;
+        max-width: 600px;
+        border-left:8px solid green;
+      }
