@@ -1,0 +1,69 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Hello, World!</title>
+      <link rel="stylesheet" href="styles.css" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <style>
+      
+       
+        .nav-items{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap:10px;
+        }
+        
+        .nav-items p{
+          margin-bottom: 0;
+        }
+        
+         .nav-items span{
+           
+           margin-left: 0;
+         }
+        p{
+          font-weight: bold;
+          
+        }
+        span{
+          font-size:12px;
+        }
+        
+        .search-form{
+          flex:1;
+          margin-left: auto;
+          align-items: center;
+        }
+        .search-form input{
+          flex:1;
+          margin-left:100px;
+          margin-right: 100px;
+        }
+      </style>  
+    </head>
+    <body>
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src= "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=900/assets/ui/print/bl_logo_web.png" height="60" width="100">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="nav-items">
+          <p>Delivery in 8 mins</p>
+          <span>Gurgaon, 122003</span>
+        </div>
+        <form class="d-flex search-form" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        
+        <button class="btn btn-outline-success shop" type="submit">Shop</button>
+      </div>
+    </div>
+  </nav>
+    </body>
+  </html>
