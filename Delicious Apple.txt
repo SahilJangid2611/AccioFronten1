@@ -1,0 +1,140 @@
+html:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+	<div class="poster product">
+		<div class="heading">Delicious Apples</div>
+		<div class="small-poster">
+			<div>
+				<i class="fa-solid fa-share-nodes"></i>
+				<!-- <i class="fa-regular fa-heart"></i> -->
+			</div>
+			<div class="apple photo-main product__photo">
+				<img src="https://www.pngall.com/wp-content/uploads/15/Green-Apple-PNG-Images.png" class="apple-left">
+			</div>
+			<div class="variant photo-album photo-container">
+				<ul>
+					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png"></li>
+					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png"></li>
+					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png"></li>
+					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png"></li>
+				</ul>	
+			</div>
+		</div>
+		<div class="right">
+			<div class="price">Rs. <a class="amount">7.93</a></div>
+			<div class="variant">
+				<ul>
+					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png"></li>
+					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png"></li>
+					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png"></li>
+					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png"></li>
+				</ul>			
+				
+			</div>
+			<div class="description">
+				<h2>BENEFITS</h2>
+				<ul>
+					<li>Apples are neutricious</li>
+					<li>Apples may be good for weight loss</li>
+					<li>Apples may be good for bone health</li>
+					<li>They're linked to lowest risk of diabetes</li>
+				</ul>
+			</div>
+			<button class="add-to-cart">ADD TO CART</button>
+		</div>		
+	</div>
+</body>
+
+</html>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+css:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+/* your code here */
+body{
+	background-color: #68fc99;
+}
+.heading{
+	font-size: 25px;
+	margin-left: 13rem;
+}
+.small-poster{
+	position: absolute;
+	left: -40px;
+	background-color: white;
+	box-shadow: 0 5px 8px rgba(0,0,0, 0.2);
+	height: 350px;
+	width: 250px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+.amount{
+	font-size: 40px;
+	color: red;
+}
+.variant{
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+	margin-top: 1.5rem
+}
+.variant ul{
+	list-style-type: none;
+	display: flex
+}
+.variant ul img{
+	width: 20px;
+	height: 20px;
+	object-fit: cover;
+	box-shadow: 0 5px 8px rgba(0,0,0, 0.2);
+}
+.poster{
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	padding: 20px;
+	margin-left: 5.5rem;
+	border-radius: 5px;
+}
+.add-to-cart{
+	display: inline-block;
+	padding: 10px;
+	font-size: 18px;
+	background-color: red;
+	border-radius: 8px;
+	cursor: pointer;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.right{
+	margin-left: 13rem;	
+}
+.apple-left{
+	width: 250px;	
+	height: 280px
+}
+.apple{	
+	background: radial-gradient(#fff, #9af005);
+}
+
+
+
+
+
+
