@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+        <p>This is an important part <em>This one</em> Text Example</p>
+    <h5>Text Example</h5>
+    <b>Text Example</b>
+    <i>Text Example</i><br>
+    <strong>Text Example</strong><br>
+    <em>Text Example</em><br>
+    <a href="https://course.acciojob.com/modules">This is hyperlink</a>
+    <div>
+      <p>This is a section</p>
+    </div>  
+  </body>
+</html>
