@@ -1,0 +1,113 @@
+1. Document Metadata
+<!DOCTYPE html>: Defines the document type and version of HTML.
+<html>: Root element of an HTML document.
+<head>: Contains metadata about the HTML document.
+<meta>: Provides metadata such as character set, viewport settings, description, etc.
+<title>: Sets the title of the HTML document (displayed in the browser’s title bar or tab).
+<link>: Links to external resources like stylesheets.
+<style>: Contains internal CSS styles.
+<script>: Contains or links to JavaScript code.
+
+2. Text Content
+<h1> to <h6>: Define headings of different levels, with <h1> being the largest.
+<p>: Defines a paragraph.
+<a>: Defines a hyperlink.
+<strong>: Defines important text (typically bold).
+<em>: Defines emphasized text (typically italic).
+<b>: Defines bold text.
+<i>: Defines italic text.
+<u>: Defines underlined text.
+<small>: Defines smaller text.
+<mark>: Defines highlighted text.
+<del>: Defines deleted text.
+<ins>: Defines inserted text.
+<sub>: Defines subscript text.
+<sup>: Defines superscript text.
+<blockquote>: Defines a block of text that is a quotation.
+<pre>: Defines preformatted text.
+<code>: Defines a piece of computer code.
+<samp>: Defines sample output from a computer program.
+<kbd>: Defines user input (keyboard input).
+<var>: Defines a variable in a mathematical expression.
+
+3. Lists
+<ul>: Defines an unordered (bulleted) list.
+<ol>: Defines an ordered (numbered) list.
+<li>: Defines a list item.
+4. Tables
+<table>: Defines a table.
+<thead>: Defines the table header group.
+<tbody>: Defines the table body group.
+<tfoot>: Defines the table footer group.
+<tr>: Defines a table row.
+<th>: Defines a table header cell.
+<td>: Defines a table data cell.
+<caption>: Defines a table caption.
+<col>: Specifies column properties.
+<colgroup>: Specifies a group of columns.
+
+5. Forms and Input
+<form>: Defines an HTML form.
+<input>: Defines an input control.
+<textarea>: Defines a multi-line text input control.
+<button>: Defines a clickable button.
+<select>: Defines a dropdown list.
+<option>: Defines options in a dropdown list.
+<label>: Defines a label for an <input> element.
+<fieldset>: Groups related elements in a form.
+<legend>: Defines a caption for a <fieldset>.
+<datalist>: Contains a list of predefined options for an <input> element.
+<output>: Defines the result of a calculation.
+
+6. Links and Media
+<img>: Embeds an image.
+<audio>: Embeds audio content.
+<video>: Embeds video content.
+<source>: Specifies multiple media resources for <audio> and <video>.
+<track>: Provides text tracks for <video> and <audio>.
+<iframe>: Embeds another HTML document within the current document.
+<object>: Embeds an object such as an image or multimedia.
+<embed>: Embeds external content, like plugins.
+
+7. Sections and Grouping
+<div>: Defines a division or section in a document (non-semantic).
+<span>: Defines a section of inline content (non-semantic).
+<header>: Defines a header for a document or section.
+<footer>: Defines a footer for a document or section.
+<section>: Defines a section in a document.
+<article>: Defines an article or independent piece of content.
+<aside>: Defines content aside from the main content (like a sidebar).
+<nav>: Defines navigation links.
+<main>: Defines the main content of the document.
+
+8. Scripting and Metadata
+<script>: Defines client-side JavaScript.
+<noscript>: Defines content to be displayed if JavaScript is not supported or disabled.
+<template>: Defines a template that can be instantiated later using JavaScript.
+<slot>: Defines a placeholder for content that can be filled in by users or other components.
+
+9. Semantic and Interactive Elements
+<dialog>: Defines a dialog box or interactive popup.
+<details>: Defines a disclosure widget from which the user can obtain additional information or controls.
+<summary>: Defines a heading for a <details> element.
+<data>: Associates a machine-readable value with its content.
+<progress>: Represents the progress of a task.
+<meter>: Represents a scalar value within a known range.
+
+10. Deprecated and Obsolete Tags
+<font>: Defines text font, size, and color (deprecated).
+<center>: Defines centered text (deprecated).
+<big>: Defines bigger text (deprecated).
+<strike>: Defines strikethrough text (deprecated; use <del> or <s>).
+HTML5 Tags
+HTML5 introduced several new semantic tags to improve the structure and meaning of web content, including:
+
+<header>
+<footer>
+<section>
+<article>
+<aside>
+<nav>
+<main>
+<figure>
+<figcaption>
