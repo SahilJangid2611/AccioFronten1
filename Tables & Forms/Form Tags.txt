@@ -1,0 +1,114 @@
+1. <form>
+Definition: Defines the start and end of a form. It wraps all form controls and specifies how form data is sent to the server.
+Attributes:
+action: URL where the form data is sent.
+method: HTTP method to use (e.g., "get" or "post").
+enctype: Encoding type for form data (e.g., "application/x-www-form-urlencoded", "multipart/form-data").
+2. <input>
+Definition: Defines an input control. It is a versatile tag with various types specified using the type attribute.
+Attributes:
+type: Specifies the input type (e.g., "text", "password", "radio", "checkbox").
+name: Name of the input, used to identify form data.
+value: Value of the input.
+placeholder: Placeholder text for the input field.
+required: Makes the field mandatory.
+3. <textarea>
+Definition: Defines a multi-line text input control.
+Attributes:
+name: Name of the textarea.
+rows: Number of visible text lines.
+cols: Number of visible text columns.
+placeholder: Placeholder text for the textarea.
+required: Makes the textarea mandatory.
+4. <button>
+Definition: Defines a clickable button.
+Attributes:
+type: Button type ("submit", "reset", "button").
+name: Name of the button.
+value: Value of the button.
+5. <select>
+Definition: Defines a drop-down list.
+Attributes:
+name: Name of the select element.
+multiple: Allows multiple selections (useful for multi-select).
+size: Number of visible options.
+6. <option>
+Definition: Defines an option in a drop-down list.
+Attributes:
+value: Value of the option.
+selected: Preselects the option.
+7. <optgroup>
+Definition: Groups related options in a drop-down list.
+Attributes:
+label: Label for the group of options.
+8. <fieldset>
+Definition: Groups related form controls and labels.
+Attributes:
+None.
+9. <legend>
+Definition: Defines a caption for the <fieldset>.
+Attributes:
+None.
+10. <label>
+Definition: Defines a label for an <input>, <select>, or <textarea>. Improves accessibility and user experience.
+Attributes:
+for: Associates the label with a form control by specifying its ID.
+11. <datalist>
+Definition: Contains a set of <option> elements that represent the possible options for an <input> element.
+Attributes:
+None.
+12. <output>
+Definition: Represents the result of a calculation or user action.
+Attributes:
+for: Specifies which form controls the output is associated with.
+name: Name of the output element.
+13. <input type="hidden">
+Definition: Defines hidden input data that is not visible to the user but is sent with the form.
+Attributes:
+name: Name of the hidden input.
+value: Value of the hidden input.
+14. <input type="image">
+Definition: Defines an image as a submit button.
+Attributes:
+src: URL of the image.
+alt: Alternative text for the image.
+15. <input type="file">
+Definition: Allows users to select files from their device.
+Attributes:
+accept: Specifies file types allowed (e.g., "image/*").
+multiple: Allows multiple file selection.
+16. <input type="range">
+Definition: Defines a control for selecting a value from a range.
+Attributes:
+min: Minimum value.
+max: Maximum value.
+step: Increment value.
+17. <input type="date">
+Definition: Allows users to select a date.
+Attributes:
+min: Minimum date.
+max: Maximum date.
+18. <input type="color">
+Definition: Allows users to select a color.
+Attributes:
+None.
+19. <input type="datetime-local">
+Definition: Allows users to select a date and time.
+Attributes:
+min: Minimum date and time.
+max: Maximum date and time.
+20. <input type="time">
+Definition: Allows users to select a time.
+Attributes:
+min: Minimum time.
+max: Maximum time.
+21. <input type="week">
+Definition: Allows users to select a week and year.
+Attributes:
+min: Minimum week.
+max: Maximum week.
+22. <input type="month">
+Definition: Allows users to select a month and year.
+Attributes:
+min: Minimum month.
+max: Maximum month.
