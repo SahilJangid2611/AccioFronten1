@@ -1,0 +1,56 @@
+Basic Commands
+git init: Initialize a new Git repository.
+git clone [url]: Clone a repository from a URL.
+git add [file]: Stage changes to a file.
+git commit -m "[message]": Commit staged changes with a message.
+git status: Show the working directory status.
+git diff: Show changes between commits, commit and working tree, etc.
+git log: Show the commit history.
+git rm [file]: Remove a file from the working directory and stage the removal.
+git mv [old] [new]: Move or rename a file and stage the move.
+Branching and Merging
+git branch: List, create, or delete branches.
+git checkout [branch]: Switch to a branch.
+git checkout -b [branch]: Create and switch to a new branch.
+git merge [branch]: Merge changes from another branch into the current branch.
+git rebase [branch]: Reapply commits on top of another base tip.
+git branch -d [branch]: Delete a branch.
+git branch -D [branch]: Forcefully delete a branch.
+Remote Repositories
+git remote add [name] [url]: Add a new remote repository.
+git remote -v: Show remote repositories.
+git fetch [remote]: Fetch changes from a remote repository.
+git pull [remote] [branch]: Fetch and merge changes from a remote branch.
+git push [remote] [branch]: Push changes to a remote repository.
+git push --set-upstream [remote] [branch]: Set the upstream branch for the current branch.
+Stashing and Cleaning
+git stash: Stash the current changes.
+git stash pop: Apply the most recent stash and remove it.
+git stash list: List all stashes.
+git stash drop: Remove a specific stash.
+git clean -f: Remove untracked files from the working directory.
+git clean -fd: Remove untracked files and directories.
+Undoing Changes
+git reset [file]: Unstage a file.
+git reset --hard: Reset the working directory and index to the last commit.
+git revert [commit]: Create a new commit that undoes changes from a previous commit.
+git restore [file]: Restore file contents from the index or a commit.
+Tagging
+git tag: List tags.
+git tag [tagname]: Create a new tag.
+git tag -d [tagname]: Delete a tag.
+git show [tagname]: Show tag details.
+Configuration and Information
+git config: Get and set Git configuration values.
+git config --global user.name "[name]": Set the global username.
+git config --global user.email "[email]": Set the global email.
+git config --list: List all configuration settings.
+git info: Show information about the repository.
+Advanced Commands
+git reflog: Show the reference logs.
+git cherry-pick [commit]: Apply the changes from a specific commit.
+git filter-branch: Rewrite history (advanced usage).
+Collaboration
+git blame [file]: Show who last modified each line of a file.
+git shortlog: Summarize git log output.
+git grep [pattern]: Search for a pattern in files.
