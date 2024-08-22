@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Card</title>
+    <link rel="stylesheet" href="styles.css">
+	<style>
+		body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card h1 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.card button {
+    padding: 10px 20px;
+    background-color: #f15a50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.card button:hover {
+    background-color: #e14b42;
+}
+	</style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://wallpapercave.com/wp/wp6967907.png" alt="Playstation 5">
+        <h1>Playstation 5</h1>
+        <p>Price: Rs.49999</p>
+        <p>Description: The PlayStation 5 (PS5) is a home video game console developed by Sony Interactive Entertainment. </p>
+        <button>Buy Now</button>
+    </div>
+</body>
+</html>
+
