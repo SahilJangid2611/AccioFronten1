@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>HTML Assignment 3</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<!-- the entire body must be written by student -->
+
+	<header>
+		<h4 id="center-aligned">HTML Assignment #3</h4>
+	</header>
+	<main>
+
+        <!-- Table 1 -->
+		<table id="table-1" class="middle">
+            <tr>
+                <td id="t11">left</td>
+                <td class="center">center</td>
+                <td class="right">right</td>
+            </tr>
+            <tr>
+                <td id="t12" class="center">left</td>
+                <td class="center">center</td>
+                <td class="right">right</td>
+            </tr>
+            <tr>
+                <td id="t13" class="right">left</td>
+                <td class="center">center</td>
+                <td class="right">right</td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <!-- Table 2 -->
+        <table id="table-2" class="middle">
+            <tr>
+                <td colspan="6" id="t21"></td>
+            </tr>
+            <tr>
+                <td rowspan="4"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td rowspan="2" colspan="3"></td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="6"></td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <!-- Table 3 -->
+        <table id="table-3" class="middle">
+            <tr>
+                <td id="bg-green"></td>
+            </tr>
+            <tr>
+                <td id="t-image">
+                    <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Basketball player playing basketball in court">
+                </td>
+            </tr>
+            <tr>
+                <td id="bg-blue"></td>
+            </tr>
+        </table>
+	</main>
+	
+    <script type="text/javascript" src="./script.js">
+</script>
+
+</body>
+
+</html>
+
+
+table,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  word-spacing: 1px;
+  width: 100%;
+  height: 15px;
+  table-layout: fixed;
+}
+
+td {
+  padding: 1px;
+}
+
+#center-aligned {
+  text-align: center;
+}
+
+#t-image {
+  text-align: center;
+}
+
+#bg-green {
+  background-color: green;
+}
+
+#bg-blue {
+  background-color: blue;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
