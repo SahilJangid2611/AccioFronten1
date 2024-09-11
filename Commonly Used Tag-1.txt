@@ -1,0 +1,217 @@
+1. <a> (Anchor)
+href: Specifies the URL of the page the link goes to.
+target: Specifies where to open the linked document (_blank, _self, _parent, _top).
+title: Provides additional information about the link (often shown as a tooltip).
+2. <img> (Image)
+src: Specifies the path to the image.
+alt: Provides alternative text for the image if it cannot be displayed.
+width: Specifies the width of the image.
+height: Specifies the height of the image.
+title: Provides additional information about the image (often shown as a tooltip).
+3. <div> (Division)
+id: Specifies a unique identifier for the division.
+class: Specifies one or more class names for the division.
+style: Specifies inline CSS styles for the division.
+4. <span> (Span)
+id: Specifies a unique identifier for the span.
+class: Specifies one or more class names for the span.
+style: Specifies inline CSS styles for the span.
+5. <p> (Paragraph)
+id: Specifies a unique identifier for the paragraph.
+class: Specifies one or more class names for the paragraph.
+style: Specifies inline CSS styles for the paragraph.
+6. <h1>, <h2>, <h3>, <h4>, <h5>, <h6> (Headings)
+id: Specifies a unique identifier for the heading.
+class: Specifies one or more class names for the heading.
+style: Specifies inline CSS styles for the heading.
+7. <form> (Form)
+action: Specifies the URL to send the form data to.
+method: Specifies the HTTP method (usually GET or POST).
+enctype: Specifies how the form data should be encoded when submitted (application/x-www-form-urlencoded, multipart/form-data, text/plain).
+8. <input> (Input Field)
+type: Specifies the type of input (e.g., text, password, checkbox, radio, submit).
+name: Specifies the name of the input field.
+value: Specifies the value of the input field.
+placeholder: Provides a hint about what to enter in the field.
+required: Specifies that the input field must be filled out before submitting the form.
+readonly: Specifies that the input field is read-only.
+disabled: Specifies that the input field is disabled.
+9. <button> (Button)
+type: Specifies the type of button (button, submit, reset).
+name: Specifies the name of the button.
+value: Specifies the value of the button.
+disabled: Specifies that the button is disabled.
+10. <select> (Dropdown Menu)
+name: Specifies the name of the dropdown menu.
+multiple: Specifies that multiple options can be selected.
+size: Specifies the number of visible options.
+11. <option> (Option in Dropdown Menu)
+value: Specifies the value of the option.
+selected: Specifies that the option should be selected by default.
+disabled: Specifies that the option is disabled.
+12. <textarea> (Text Area)
+name: Specifies the name of the text area.
+rows: Specifies the number of visible rows.
+cols: Specifies the number of visible columns.
+placeholder: Provides a hint about what to enter in the text area.
+readonly: Specifies that the text area is read-only.
+disabled: Specifies that the text area is disabled.
+13. <table> (Table)
+border: Specifies the width of the border (in HTML 4.01, but CSS is preferred in modern HTML).
+cellspacing: Specifies the space between cells (in HTML 4.01, but CSS is preferred in modern HTML).
+cellpadding: Specifies the space between cell content and cell border (in HTML 4.01, but CSS is preferred in modern HTML).
+14. <tr> (Table Row)
+id: Specifies a unique identifier for the row.
+class: Specifies one or more class names for the row.
+15. <td> (Table Data Cell)
+rowspan: Specifies the number of rows a cell should span.
+colspan: Specifies the number of columns a cell should span.
+headers: Specifies the IDs of the header cells that apply to the data cell.
+16. <th> (Table Header Cell)
+rowspan: Specifies the number of rows a header cell should span.
+colspan: Specifies the number of columns a header cell should span.
+scope: Specifies whether the header cell is a header for a row, column, or group of rows/columns (row, col, rowgroup, colgroup).
+17. <ul>, <ol>, <li> (Lists)
+type: Specifies the type of list (only for <ol>: 1, A, a, I, i).
+start: Specifies the starting number for an ordered list (only for <ol>).
+18. <iframe> (Inline Frame)
+src: Specifies the URL of the document to embed.
+width: Specifies the width of the iframe.
+height: Specifies the height of the iframe.
+frameborder: Specifies whether to display a border around the iframe (in HTML 4.01, but CSS is preferred in modern HTML).
+allowfullscreen: Specifies whether to allow fullscreen mode.
+19. <script> (Script)
+src: Specifies the URL of the external script file.
+type: Specifies the type of script (e.g., text/javascript).
+async: Specifies that the script should be executed asynchronously.
+defer: Specifies that the script should be executed after the document has been parsed.
+20. <link> (Link to External Resource)
+href: Specifies the URL of the linked resource.
+rel: Specifies the relationship between the current document and the linked resource (e.g., stylesheet).
+type: Specifies the type of the linked resource (e.g., text/css for stylesheets).
+21. <meta> (Metadata)
+name: Specifies the name of the metadata (e.g., description, keywords).
+content: Specifies the value of the metadata.
+charset: Specifies the character encoding (e.g., UTF-8).
+This list covers many of the essential HTML tags and their attributes, but HTML has many more tags and attributes, especially for more specialized use cases and modern web development. If you have specific needs or questions about a particular tag, feel free to ask!
+22. <audio> (Audio)
+src: Specifies the URL of the audio file.
+controls: Specifies whether to display audio controls (play, pause, etc.).
+autoplay: Specifies that the audio should start playing as soon as it is ready.
+loop: Specifies that the audio should loop continuously.
+muted: Specifies that the audio should be muted.
+preload: Specifies if and how the audio file should be loaded (auto, metadata, none).
+23. <video> (Video)
+src: Specifies the URL of the video file.
+controls: Specifies whether to display video controls (play, pause, etc.).
+autoplay: Specifies that the video should start playing as soon as it is ready.
+loop: Specifies that the video should loop continuously.
+muted: Specifies that the video should be muted.
+poster: Specifies an image to be shown while the video is downloading or until the user hits the play button.
+preload: Specifies if and how the video file should be loaded (auto, metadata, none).
+24. <source> (Source for Media)
+src: Specifies the URL of the media file.
+type: Specifies the MIME type of the media file.
+25. <track> (Text Tracks for <video> and <audio>)
+src: Specifies the URL of the track file.
+kind: Specifies the kind of text track (subtitles, captions, descriptions, chapters, metadata).
+srclang: Specifies the language of the track (e.g., en for English).
+label: Specifies the title of the track.
+26. <nav> (Navigation)
+id: Specifies a unique identifier for the navigation section.
+class: Specifies one or more class names for the navigation section.
+style: Specifies inline CSS styles for the navigation section.
+27. <header> (Header)
+id: Specifies a unique identifier for the header section.
+class: Specifies one or more class names for the header section.
+style: Specifies inline CSS styles for the header section.
+28. <footer> (Footer)
+id: Specifies a unique identifier for the footer section.
+class: Specifies one or more class names for the footer section.
+style: Specifies inline CSS styles for the footer section.
+29. <section> (Section)
+id: Specifies a unique identifier for the section.
+class: Specifies one or more class names for the section.
+style: Specifies inline CSS styles for the section.
+30. <article> (Article)
+id: Specifies a unique identifier for the article.
+class: Specifies one or more class names for the article.
+style: Specifies inline CSS styles for the article.
+31. <aside> (Aside)
+id: Specifies a unique identifier for the aside.
+class: Specifies one or more class names for the aside.
+style: Specifies inline CSS styles for the aside.
+32. <details> (Details)
+open: Specifies that the details should be visible by default.
+id: Specifies a unique identifier for the details element.
+class: Specifies one or more class names for the details element.
+style: Specifies inline CSS styles for the details element.
+33. <summary> (Summary for <details>)
+id: Specifies a unique identifier for the summary.
+class: Specifies one or more class names for the summary.
+style: Specifies inline CSS styles for the summary.
+34. <figure> (Figure)
+id: Specifies a unique identifier for the figure.
+class: Specifies one or more class names for the figure.
+style: Specifies inline CSS styles for the figure.
+35. <figcaption> (Figure Caption)
+id: Specifies a unique identifier for the caption.
+class: Specifies one or more class names for the caption.
+style: Specifies inline CSS styles for the caption.
+36. <form> (Form)
+action: Specifies the URL where to send the form data when the form is submitted.
+method: Specifies the HTTP method (GET or POST) to use when sending form data.
+enctype: Specifies how the form data should be encoded (application/x-www-form-urlencoded, multipart/form-data, text/plain).
+target: Specifies where to open the linked document (_self, _blank, _parent, _top).
+37. <label> (Label for Input)
+for: Specifies which form element the label is associated with (the id of the input).
+id: Specifies a unique identifier for the label.
+class: Specifies one or more class names for the label.
+style: Specifies inline CSS styles for the label.
+38. <fieldset> (Fieldset)
+disabled: Specifies that the fieldset and its controls should be disabled.
+form: Specifies which form the fieldset belongs to (for forms that are not contained within the fieldset).
+39. <legend> (Legend for <fieldset>)
+id: Specifies a unique identifier for the legend.
+class: Specifies one or more class names for the legend.
+style: Specifies inline CSS styles for the legend.
+40. <datalist> (List of Options)
+id: Specifies a unique identifier for the datalist.
+class: Specifies one or more class names for the datalist.
+style: Specifies inline CSS styles for the datalist.
+41. <option> (Option in <datalist> or <select>)
+value: Specifies the value of the option.
+label: Specifies the label of the option.
+selected: Specifies that the option should be selected by default.
+disabled: Specifies that the option is disabled.
+42. <output> (Output)
+for: Specifies the IDs of the form elements the output is associated with.
+name: Specifies the name of the output.
+43. <progress> (Progress)
+value: Specifies the current value of the progress.
+max: Specifies the maximum value of the progress.
+44. <meter> (Meter)
+value: Specifies the current value.
+min: Specifies the minimum value.
+max: Specifies the maximum value.
+low: Specifies the lower bound for the "low" range.
+high: Specifies the upper bound for the "high" range.
+optimum: Specifies the optimal value.
+45. <bdi> (Bidirectional Isolate)
+id: Specifies a unique identifier for the bdi.
+class: Specifies one or more class names for the bdi.
+style: Specifies inline CSS styles for the bdi.
+46. <bdo> (Bidirectional Override)
+dir: Specifies the text direction (ltr or rtl).
+47. <data> (Data)
+value: Specifies a machine-readable value.
+48. <time> (Time)
+datetime: Specifies the time in a machine-readable format.
+49. <svg> (Scalable Vector Graphics)
+width: Specifies the width of the SVG.
+height: Specifies the height of the SVG.
+viewBox: Defines the position and dimension of the viewport.
+preserveAspectRatio: Defines how the SVG should scale.
+50. <canvas> (Canvas)
+width: Specifies the width of the canvas.
+height: Specifies the height of the canvas.
