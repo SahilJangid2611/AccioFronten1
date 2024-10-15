@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+    a{
+      text-decoration: none;
+    }
+
+    a:hover{
+      background-color: lawngreen;
+    }
+    
+    button:active{
+      background-color: tomato;
+      color: goldenrod;
+    }
+    
+    input:focus{
+      border:10px solid firebrick;
+    }
+
+    p:not(.special){
+      background-color: blanchedalmond;
+    }
+    input:checked{
+      outline:5px solid greenyellow
+    }
+    </style>
+  </head>
+
+  <body>
+    <h2>Pseudo classes selectors example</h2>
+    <a href="#">don't click here please</a> <br>
+    <button>You cant click here</button><br>
+    <input type="text" placeholder="You can't write anything here.."> <br>
+    <br>
+    <p>This is not a paragraph</p>
+    <p class="special">This is a special type of paragraph</p>
+    <p>This is again not a paragraph</p>
+
+    <ul>
+      <li>This ain't a item</li>
+      <li>This is another item </li>
+      <li>same for this</li>
+      <li>This ain't a item</li>
+      <li>This is another item </li>
+      <li>same for this</li>
+      <li>This ain't a item</li>
+      <li>This is another item </li>
+      <li>same for this</li>
+    </ul>
+
+    <input type="checkbox" id="check1">
+    <label for="check1">Dont' check the box</label>
+  </body>
+</html>
