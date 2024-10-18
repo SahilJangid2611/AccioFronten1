@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      html{
+        font-size: 20px;
+      }
+      .css{
+        font-family: fantasy;
+        font-size: 2em;
+        font-weight: bolder;
+        /* line-height: 1.5; */
+        text-align: center;
+        text-decoration: overline;
+        text-transform: capitalize;
+        letter-spacing: 5px;
+        color: whitesmoke;
+        word-spacing: 3px;
+        text-indent:20px;
+        text-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+        font-variant: small-caps;
+        /* font:italic small-caps bold 30px;
+        font: font-style font-variant font-weight font-size  line-height font-family; */
+        border: 10px dashed black;
+        padding: 50px;
+        /* box-sizing: content-box;
+        margin-bottom: -200px; */
+        margin:auto;
+        /* background properties */
+        background-color: aqua;
+        background-image: url('https://m.media-amazon.com/images/I/81E-0mKufuS._AC_UF1000,1000_QL80_.jpg');
+        /* background-size: cover; */
+        background-repeat: no-repeat;
+        background-position: 50%;
+        /* background-attachment: local; */
+        background-clip: padding-box;
+        background-origin: border-box;
+      }
+      
+    </style>
+  </head>
+  <body>
+    contet box
+    <p class="css">This is a text Click on RUN button to see the output
+
+      Click on RUN button to see the output
+
+      Click on RUN button to see the output
+
+      Click on RUN button to see the output
+
+      Click on RUN button to see the output
+      Click on RUN button to see the output
+      Click on RUN button to see the output
+      Click on RUN button to see the output
+
+      Click on RUN button to see the output
+
+    </p>
+    
+    
+  
+  </body>
+</html>
