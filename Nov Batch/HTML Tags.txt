@@ -1,0 +1,107 @@
+1. Document Structure Tags:
+<html> – Defines the root of the HTML document.
+<head> – Contains meta-information about the document (e.g., title, character set).
+<title> – Sets the title of the web page (appears in the browser tab).
+<meta> – Provides metadata about the HTML document (e.g., character encoding, author).
+<body> – Contains the content of the web page that will be visible to users.
+<footer> – Defines a footer section for the document or section.
+<header> – Defines a header for the document or section.
+<main> – Represents the dominant content of the document.
+<section> – Defines a section of content in the document.
+<article> – Defines independent, self-contained content.
+<nav> – Represents navigation links.
+<aside> – Represents content aside from the main content (sidebar, etc.).
+<h1> to <h6> – Define headings, with <h1> being the highest level and <h6> the lowest.
+2. Text Content Tags:
+<p> – Defines a paragraph of text.
+<br> – Inserts a line break.
+<hr> – Creates a horizontal rule (line).
+<blockquote> – Defines a block of text that is a quotation.
+<q> – Defines an inline quotation.
+<pre> – Represents preformatted text (preserves whitespace).
+<code> – Defines inline code.
+<em> – Emphasizes text (usually italic).
+<strong> – Defines important text (usually bold).
+<small> – Defines smaller text.
+<mark> – Highlights text (usually yellow).
+<sub> – Defines subscript text.
+<sup> – Defines superscript text.
+<del> – Represents deleted text (strikethrough).
+<ins> – Represents inserted text (underlined).
+<u> – Defines text with an underline.
+<cite> – Represents a citation or reference.
+<dfn> – Defines a definition of a term.
+<abbr> – Defines an abbreviation or acronym.
+<address> – Defines contact information.
+3. List Tags:
+<ul> – Defines an unordered (bulleted) list.
+<ol> – Defines an ordered (numbered) list.
+<li> – Defines a list item.
+<dl> – Defines a description list.
+<dt> – Defines a term in a description list.
+<dd> – Defines a description for a term in a description list.
+4. Link and Anchor Tags:
+<a> – Defines a hyperlink (anchor) to another page or resource.
+<link> – Specifies relationships between the current document and external resources (commonly used for linking stylesheets).
+<nav> – Defines navigation links.
+5. Image and Media Tags:
+<img> – Embeds an image.
+<audio> – Defines sound content (audio file).
+<video> – Defines a video file.
+<source> – Specifies multiple media resources for <audio> and <video>.
+<track> – Defines text tracks (e.g., subtitles) for <video> and <audio>.
+<picture> – Contains different image sources for different display conditions (responsive images).
+6. Form Tags:
+<form> – Defines an HTML form for user input.
+<input> – Defines an input field for user data (text, password, checkbox, etc.).
+<textarea> – Defines a multiline text input field.
+<button> – Defines a clickable button.
+<select> – Defines a dropdown menu.
+<option> – Defines an option in a dropdown menu.
+<optgroup> – Defines groups of related options within a <select>.
+<label> – Defines a label for an input element.
+<fieldset> – Groups related form elements.
+<legend> – Defines a caption for a <fieldset>.
+<datalist> – Provides a list of predefined options for an input element.
+<output> – Represents the result of a calculation or user action.
+7. Table Tags:
+<table> – Defines a table.
+<caption> – Specifies a title or caption for the table.
+<thead> – Defines the header section of a table.
+<tbody> – Defines the body section of a table.
+<tfoot> – Defines the footer section of a table.
+<tr> – Defines a row in the table.
+<th> – Defines a header cell in the table.
+<td> – Defines a data cell in the table.
+<col> – Defines column properties for a table.
+<colgroup> – Groups columns to apply styles or attributes.
+8. Semantic Elements:
+<div> – A generic container for grouping content (no semantic meaning).
+<span> – A generic inline container (no semantic meaning).
+<b> – Defines bold text (non-semantic; use <strong> for importance).
+<i> – Defines italic text (non-semantic; use <em> for emphasis).
+<time> – Represents a specific time or date.
+<progress> – Displays a progress bar for a task.
+<meter> – Represents a scalar measurement (e.g., disk usage).
+9. Scripting and Style Tags:
+<script> – Defines client-side JavaScript.
+<noscript> – Defines content for browsers that do not support or have disabled JavaScript.
+<style> – Defines internal CSS (styles) for the page.
+10. Embedded Content Tags:
+<iframe> – Embeds an external resource (like another webpage) into the current page.
+<embed> – Embeds external content like a plugin or interactive content.
+<object> – Defines an external resource like an image, video, or document.
+<param> – Defines parameters for the <object> tag.
+<embed> – Embeds external content such as audio or interactive media.
+<canvas> – Defines a drawing area for dynamic graphics via JavaScript.
+<svg> – Defines an SVG (Scalable Vector Graphics) image.
+<math> – Embeds MathML (Mathematical Markup Language).
+11. Other Tags:
+<noscript> – Provides alternate content for users who have disabled JavaScript.
+<wbr> – Suggests a line break opportunity within text.
+<details> – Defines additional details that can be toggled open/closed.
+<summary> – Defines a summary for a <details> element.
+<data> – Links content with a machine-readable value.
+<ruby> – Defines a ruby annotation (used for East Asian typography).
+<rt> – Defines text for a ruby annotation.
+<rp> – Defines fallback text for browsers that do not support ruby annotations.
