@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="fevicon.json" type="application/json" rel="stylesheet">
+
+  <style>
+    #heading{
+      color: darkblue;
+      background-color: blueviolet;
+    }
+    
+    /* h1{
+      color: blueviolet;
+    } */
+     .headingGroup{
+      border: 2px solid black;
+      background-color: aqua;
+     }
+  </style>
+</head>
+<body>
+  <div data-user="Bhawna" data-role="admin">User Info</div>
+  <h1 style="color: brown;" id="heading" title="Headinggggggggg">This is heading</h1>
+  <h2>This is secondary heading</h2>
+  <h1 lang="en" class="headingGroup">This is second heading</h1>
+  <p class="headingGroup">This is a paragraph</p>
+  <h4 hidden>This is hidden</h4>
+  <input type="text" tabindex="1">
+  <button tabindex="2">Submit</button>
+
+  <!-- <iframe src="index.html" width="600" height="400"></iframe> -->
+  <a href="https://www.google.com" target="_parent" rel="noopener">Click here</a>
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/TEIDE.JPG/800px-TEIDE.JPG" alt="Image-not-visible" width="500">
+  <audio></audio>
+  <a href="audio.mp3" type="audio/mpeg"></a>
+  <a href="document.pdf" type="application/pdf"></a>
+  <video autoplay controls>
+    <source src="https://www.youtube.com/watch?v=8bZxJAHZJqU" type="video/mp4">
+  </video>
+
+  <audio autoplay controls>
+    <source src="audio.mp3" type="audio/mp3">
+  </audio>
+</body>
+</html>
+
